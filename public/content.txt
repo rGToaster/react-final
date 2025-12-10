@@ -1,0 +1,3 @@
+<h2>Loaded Content via jQuery AJAX</h2>
+<p>This content was successfully loaded from a text file using jQuery's AJAX method. The file contains HTML markup including an h2 heading and this paragraph. The AJAX request retrieves the file content and displays it dynamically on the page when the button is clicked.</p>
+

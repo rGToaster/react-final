@@ -1,0 +1,188 @@
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  min-height: calc(100vh - 300px);
+}
+
+.main-content>h2 {
+  color: black;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  color: black;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.section-description {
+  color: black;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+/* JSON Section Styles */
+.json-section {
+  margin: 3rem 0;
+  padding: 2rem;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.json-section h2 {
+  color: #0066cc;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.tv-shows-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.tv-show-card {
+  background: white;
+  padding: 1.5rem;
+  border: 1px solid black;
+}
+
+.tv-show-card h3 {
+  color: #0066cc;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.tv-show-card p {
+  margin: 0.75rem 0;
+  color: black;
+  line-height: 1.6;
+}
+
+.tv-show-card strong {
+  color: black;
+}
+
+/* jQuery Animation Section Styles */
+.jquery-animation-section {
+  margin: 3rem 0;
+  padding: 2rem;
+  background-color: white;
+  border: 2px solid black;
+  min-height: 300px;
+}
+
+.jquery-animation-section h2 {
+  color: #0066cc;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.animate-button {
+  background-color: #0066cc;
+  color: white;
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.animate-button:hover {
+  background-color: #0052a3;
+}
+
+.animation-container {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid black;
+}
+
+#animateDiv {
+  position: absolute;
+  width: 350px;
+  background: white;
+  padding: 1.5rem;
+  border: 1px solid black;
+  left: -400px;
+  top: 50px;
+  z-index: 10;
+}
+
+#animateDiv h2 {
+  color: #0066cc;
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+#animateDiv p {
+  color: black;
+  margin: 1rem 0;
+}
+
+.stamp-image {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  display: block;
+  margin: 1rem auto 0;
+}
+
+/* jQuery AJAX Section Styles */
+.jquery-ajax-section {
+  margin: 3rem 0;
+  padding: 2rem;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.jquery-ajax-section h2 {
+  color: #0066cc;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.ajax-button {
+  background-color: #0066cc;
+  color: white;
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.ajax-button:hover {
+  background-color: #0052a3;
+}
+
+.ajax-content {
+  background: white;
+  padding: 1.5rem;
+  min-height: 100px;
+  border: 1px solid black;
+}
+
+.ajax-content h2 {
+  color: #0066cc;
+  margin-top: 0;
+}
+
+.ajax-content p {
+  color: black;
+  line-height: 1.6;
+}
